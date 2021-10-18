@@ -1,0 +1,23 @@
+#cardInfo {
+  width: 100%;
+  height: auto;
+  background-color: var(--myback);
+}
+#cardInfo .card-body {
+  color: var(--mycolor);
+}
+#cardInfo .card-body h5 {
+  margin: 0;
+}
+#cardInfo #card_images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#cardInfo #card_images img {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}/*# sourceMappingURL=cardInfo.css.map */
